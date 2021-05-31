@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Bodoni Moda', serif;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #EEEEDB;
+}
+
+body .app-wrapper {
+  background-color: #fff;
+  border: 3px groove rgba(20, 4, 4, 0.644);
+  -webkit-box-shadow: 0.7rem 0.7rem 3rem rgba(0, 0, 0, 0.356);
+          box-shadow: 0.7rem 0.7rem 3rem rgba(0, 0, 0, 0.356);
+}
+
+body .app-wrapper h1, body .app-wrapper h4 {
+  text-align: center;
+}
+
+body .app-wrapper #wrapper-bar-chart {
+  width: 78.75rem;
+  height: 31.25rem;
+}
+
+body .app-wrapper .bar:hover {
+  fill: #A7CCCC;
+}
+
+body .app-wrapper #tooltip {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  opacity: 0;
+  font-size: 1.2rem;
+  width: 12rem;
+  height: 5rem;
+  border-radius: 5px;
+  background-color: rgba(48, 61, 75, 0.8);
+  color: #fff;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 50%;
+}
+/*# sourceMappingURL=style.css.map */
